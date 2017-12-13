@@ -63,16 +63,16 @@ var table=document.getElementById("myTable");
 	   var accompanies= document.getElementById('accompanies').value;
 	   var city= document.getElementById('city').value;
 	   var specialrequest= document.getElementById('specialrequest').value;
-	   var txtCount= document.getElementById('txtCount').value;
-	   var txtSno= document.getElementById('txtSno').value;
-	   var txtName= document.getElementById('txtName').value;
-	   var txtAge= document.getElementById('txtAge').value;
-	   var txtFare= document.getElementById('txtFare').value;
+	   //var txtCount= document.getElementById('txtCount').value;
+	   //var txtSno= document.getElementById('txtSno').value;
+	   //var txtName= document.getElementById('txtName').value;
+	   //var txtAge= document.getElementById('txtAge').value;
+	   //var txtFare= document.getElementById('txtFare').value;
 
 
 
-var data= { name1: name1, name2: name2, address1: 'address1', address2: 'address2', age: age, mobile: mobileno, landline: lanelineno
-, state: state, accompanies: accompanies, city: city, specialrequest: 'specialrequest' };
+var data= { "name1": name1, "name2": name2, "address1": address1, "address2": address2, "age": age, "mobile": mobileno, "landline": lanelineno
+, "state": state, "accompanies": accompanies, "city": city, "specialrequest": specialrequest };
 
 
 
